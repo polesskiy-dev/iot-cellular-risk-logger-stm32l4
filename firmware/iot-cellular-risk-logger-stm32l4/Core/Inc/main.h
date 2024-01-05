@@ -57,6 +57,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define GSM_DCD_Pin GPIO_PIN_14
+#define GSM_DCD_GPIO_Port GPIOB
+#define GSM_DTR_Pin GPIO_PIN_15
+#define GSM_DTR_GPIO_Port GPIOB
+#define GSM_RI_Pin GPIO_PIN_8
+#define GSM_RI_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 

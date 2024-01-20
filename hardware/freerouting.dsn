@@ -113,26 +113,26 @@
     )
     (component Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
       (place C23 101859.000000 -138032.000000 front 90.000000 (PN 100n))
-      (place C12 108839.000000 -165989.000000 front 90.000000 (PN 100n))
-      (place C7 88037.500000 -157226.000000 front 0.000000 (PN 100n))
+      (place C12 95504.000000 -165862.000000 front 90.000000 (PN 100n))
+      (place C7 93726.000000 -152146.000000 front 0.000000 (PN 100n))
       (place C3 84963.000000 -149098.000000 front -90.000000 (PN 100n))
       (place C28 80010.000000 -120396.000000 front 0.000000 (PN 100p))
-      (place C10 100229.500000 -164465.000000 front 0.000000 (PN 22p))
-      (place C8 94133.500000 -167132.000000 front 180.000000 (PN 100n))
+      (place C10 105918.000000 -159385.000000 front 0.000000 (PN 22p))
+      (place C8 99822.000000 -162052.000000 front 180.000000 (PN 100n))
       (place C13 73152.000000 -126634.000000 front 90.000000 (PN 100n))
-      (place C2 97663.000000 -146700.000000 front 0.000000 (PN 100n))
+      (place C2 100076.000000 -143002.000000 front 0.000000 (PN 100n))
       (place C18 112268.000000 -147970.000000 front 180.000000 (PN 100n))
       (place C26 73608.100000 -143256.000000 front 180.000000 (PN 100n))
-      (place C11 100229.500000 -162941.000000 front 0.000000 (PN 22p))
-      (place C5 98197.500000 -159639.000000 front -90.000000 (PN 100n))
+      (place C11 105918.000000 -157861.000000 front 0.000000 (PN 22p))
+      (place C5 103886.000000 -154559.000000 front -90.000000 (PN 100n))
       (place C22 112268.000000 -149621.000000 front 180.000000 (PN 100n))
       (place C27 111500.000000 -137000.000000 front -90.000000 (PN 100n))
       (place C24 111500.000000 -127500.000000 front 90.000000 (PN 100n))
       (place C4 111506.000000 -132222.000000 front 90.000000 (PN 100n))
-      (place C25 107315.000000 -165989.000000 front 90.000000 (PN 100n))
+      (place C25 93980.000000 -165862.000000 front 90.000000 (PN 100n))
       (place C21 84963.000000 -144780.000000 front 90.000000 (PN 100n))
       (place C1 84958.000000 -165748.000000 front 90.000000 (PN 4n7))
-      (place C6 86640.500000 -165735.000000 front 90.000000 (PN 100n))
+      (place C6 92329.000000 -160655.000000 front 90.000000 (PN 100n))
       (place C33 63091.700000 -166563.800000 front 0.000000 (PN 1n))
     )
     (component "personal:SON65P200X200X65-7N"
@@ -152,7 +152,7 @@
       (place R10 76327.000000 -144780.000000 front -90.000000 (PN 47k))
       (place R5 45466.000000 -165735.000000 front 90.000000 (PN 100k))
       (place R12 112268.000000 -151272.000000 front 0.000000 (PN 4k7))
-      (place R4 91821.000000 -146700.000000 front 180.000000 (PN 10k))
+      (place R4 94234.000000 -143002.000000 front 180.000000 (PN 10k))
       (place R14 72004.000000 -165748.000000 front 90.000000 (PN 47k))
       (place R1 77084.000000 -165748.000000 front -90.000000 (PN 5k1))
     )
@@ -161,7 +161,7 @@
       (place C32 62433.200000 -169221.400000 front 90.000000 (PN 10u))
       (place C19 56591.200000 -169205.400000 front -90.000000 (PN 10u))
       (place C14 71374.000000 -126380.000000 front 90.000000 (PN 1u))
-      (place C9 99975.500000 -159639.000000 front -90.000000 (PN 10u))
+      (place C9 105664.000000 -154559.000000 front -90.000000 (PN 10u))
     )
     (component "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder"
       (place C16 65151.000000 -121173.000000 front 90.000000 (PN 100uF))
@@ -247,25 +247,25 @@
       (place U2 117000.000000 -148500.000000 front -90.000000 (PN LSM6DSO))
     )
     (component "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-      (place U3 94742.000000 -150383.000000 front 0.000000 (PN W25Q64JV))
+      (place U3 97155.000000 -146685.000000 front 0.000000 (PN W25Q64JV))
     )
     (component "Package_TO_SOT_SMD:SOT-23-6"
       (place D4 104888.500000 -137973.000000 front 0.000000 (PN SMF05CT1G))
     )
     (component "Crystal:Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm"
-      (place Y1 97308.500000 -163703.000000 front 90.000000 (PN "SC-32S32.768"))
+      (place Y1 102997.000000 -158623.000000 front 90.000000 (PN "SC-32S32.768"))
     )
     (component "Package_TO_SOT_SMD:SOT-143"
       (place D2 79497.000000 -165748.000000 front 0.000000 (PN PRTR5V0U2X))
     )
     (component "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical_with_bottom_clip"
-      (place J5 104810.000000 -172016.000000 front 180.000000 (PN "TagConnect SWD ARM"))
+      (place J5 91348.000000 -171254.000000 front 180.000000 (PN "TagConnect SWD ARM"))
     )
     (component "personal:HRS_U.FL-R-SMT_01_"
       (place J2 84201.000000 -120396.000000 front -90.000000 (PN "U.FL Antenna Connector (Male)"))
     )
     (component "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
-      (place U1 91593.500000 -162179.000000 front 180.000000 (PN STM32L433CBUx))
+      (place U1 97282.000000 -157099.000000 front 180.000000 (PN STM32L433CBUx))
     )
     (component "personal:BAT_BH-18650-PC"
       (place BT1 81950.000000 -157000.000000 back 0.000000 (PN "18650 Li-Ion"))
@@ -2159,28 +2159,27 @@
     (net /IND2
       (pins L4-1 U5-3)
     )
-    (class kicad_default "" /+BATTERY /+GSM_VBAT /+LED /+VBUS /+VOUT /CLK
-      /CTS /CTS3V /DATA /DCD /DCD3V /DTR /DTR3V /GND_SHIELD /IND1 /IND2 "/LSE IN"
-      "/LSE OUT" /QSPI_CLK /QSPI_IO0 /QSPI_IO1 /QSPI_IO2 /QSPI_IO3 /RI /RI3V
-      /RST /RTS /RTS3V /RX /RX3V /TX /TX3V /USB_CC1 /USB_CC2 /VCC_LNA /VDD
-      /_QSPI_NCS CHARGE_STAT GNSS_EN GSM_EN IMU_INT1 IMU_INT2 "Net-(Q1-G)"
-      "Net-(Q2-C)" "Net-(U11-CSB)" "Net-(U11-VDD)" "Net-(U2-CS)" "Net-(U2-VDD)"
-      "Net-(U2-VDDIO)" "Net-(U4-VDD)" "Net-(U5-PG)" "Net-(U5-SS)" "Net-(U6-PROG)"
-      "Net-(U6-STAT)" "Net-(U8-A8)" "Net-(U8-B8)" SCL SDA SIM_DETECT SWDCLK
-      SWDIO SWO USB_N USB_P USB_VBUS _LED _LIGHT_INT _RESET "unconnected-(D4-IO5-Pad6)"
-      "unconnected-(FL1-Pad2)" "unconnected-(FL1-Pad3)" "unconnected-(H1-Pad1)"
-      "unconnected-(H2-Pad1)" "unconnected-(H3-Pad1)" "unconnected-(H4-Pad1)"
-      "unconnected-(J1-VPP-PadC6)" "unconnected-(J4-SBU1-PadA8)" "unconnected-(J4-SBU2-PadB8)"
-      "unconnected-(J5-KEY-Pad7)" "unconnected-(J5-NC{slash}TDI-Pad8)" "unconnected-(U1-PA4-Pad14)"
-      "unconnected-(U1-PA5-Pad15)" "unconnected-(U1-PB8-Pad45)" "unconnected-(U1-PB9-Pad46)"
-      "unconnected-(U1-PC13-Pad2)" "unconnected-(U1-PH0-Pad5)" "unconnected-(U1-PH1-Pad6)"
-      "unconnected-(U1-PH3-Pad44)" "unconnected-(U1-VBAT-Pad1)" "unconnected-(U2-OCS_AUX-Pad10)"
-      "unconnected-(U2-SDO_AUX-Pad11)" "unconnected-(U9-ADC-Pad38)" "unconnected-(U9-ANT_CONTROL0-Pad44)"
-      "unconnected-(U9-ANT_CONTROL1-Pad43)" "unconnected-(U9-GPIO1-Pad57)"
-      "unconnected-(U9-GPIO2-Pad58)" "unconnected-(U9-GPIO3-Pad59)" "unconnected-(U9-GPIO4-Pad60)"
-      "unconnected-(U9-GPIO5-Pad14)" "unconnected-(U9-I2C_SCL-Pad65)" "unconnected-(U9-I2C_SDA-Pad64)"
-      "unconnected-(U9-NETLIGHT-Pad41)" "unconnected-(U9-PCM_CLK-Pad11)" "unconnected-(U9-PCM_DIN-Pad9)"
-      "unconnected-(U9-PCM_DOUT-Pad10)" "unconnected-(U9-PCM_SYNC-Pad12)"
+    (class kicad_default "" /CLK /CTS /CTS3V /DATA /DCD /DCD3V /DTR /DTR3V
+      /IND1 /IND2 "/LSE IN" "/LSE OUT" /QSPI_CLK /QSPI_IO0 /QSPI_IO1 /QSPI_IO2
+      /QSPI_IO3 /RI /RI3V /RST /RTS /RTS3V /RX /RX3V /TX /TX3V /USB_CC1 /USB_CC2
+      /VCC_LNA /VDD /_QSPI_NCS CHARGE_STAT GNSS_EN GSM_EN IMU_INT1 IMU_INT2
+      "Net-(Q1-G)" "Net-(Q2-C)" "Net-(U11-CSB)" "Net-(U11-VDD)" "Net-(U2-CS)"
+      "Net-(U2-VDD)" "Net-(U2-VDDIO)" "Net-(U4-VDD)" "Net-(U5-PG)" "Net-(U5-SS)"
+      "Net-(U6-PROG)" "Net-(U6-STAT)" "Net-(U8-A8)" "Net-(U8-B8)" SCL SDA
+      SIM_DETECT SWDCLK SWDIO SWO USB_N USB_P USB_VBUS _LED _LIGHT_INT _RESET
+      "unconnected-(D4-IO5-Pad6)" "unconnected-(FL1-Pad2)" "unconnected-(FL1-Pad3)"
+      "unconnected-(H1-Pad1)" "unconnected-(H2-Pad1)" "unconnected-(H3-Pad1)"
+      "unconnected-(H4-Pad1)" "unconnected-(J1-VPP-PadC6)" "unconnected-(J4-SBU1-PadA8)"
+      "unconnected-(J4-SBU2-PadB8)" "unconnected-(J5-KEY-Pad7)" "unconnected-(J5-NC{slash}TDI-Pad8)"
+      "unconnected-(U1-PA4-Pad14)" "unconnected-(U1-PA5-Pad15)" "unconnected-(U1-PB8-Pad45)"
+      "unconnected-(U1-PB9-Pad46)" "unconnected-(U1-PC13-Pad2)" "unconnected-(U1-PH0-Pad5)"
+      "unconnected-(U1-PH1-Pad6)" "unconnected-(U1-PH3-Pad44)" "unconnected-(U1-VBAT-Pad1)"
+      "unconnected-(U2-OCS_AUX-Pad10)" "unconnected-(U2-SDO_AUX-Pad11)" "unconnected-(U9-ADC-Pad38)"
+      "unconnected-(U9-ANT_CONTROL0-Pad44)" "unconnected-(U9-ANT_CONTROL1-Pad43)"
+      "unconnected-(U9-GPIO1-Pad57)" "unconnected-(U9-GPIO2-Pad58)" "unconnected-(U9-GPIO3-Pad59)"
+      "unconnected-(U9-GPIO4-Pad60)" "unconnected-(U9-GPIO5-Pad14)" "unconnected-(U9-I2C_SCL-Pad65)"
+      "unconnected-(U9-I2C_SDA-Pad64)" "unconnected-(U9-NETLIGHT-Pad41)" "unconnected-(U9-PCM_CLK-Pad11)"
+      "unconnected-(U9-PCM_DIN-Pad9)" "unconnected-(U9-PCM_DOUT-Pad10)" "unconnected-(U9-PCM_SYNC-Pad12)"
       "unconnected-(U9-SPI_CLK-Pad50)" "unconnected-(U9-SPI_CS-Pad48)" "unconnected-(U9-SPI_MISO-Pad51)"
       "unconnected-(U9-SPI_MOSI-Pad49)" "unconnected-(U9-STATUS-Pad42)" "unconnected-(U9-UART2_RXD-Pad23)"
       "unconnected-(U9-UART2_TXD-Pad22)" "unconnected-(U9-UART3_RXD-Pad62)"
@@ -2194,7 +2193,7 @@
         (clearance 203.3)
       )
     )
-    (class GND GND
+    (class GND /GND_SHIELD GND
       (circuit
         (use_via Via[0-3]_800:400_um)
       )
@@ -2203,7 +2202,7 @@
         (clearance 203.3)
       )
     )
-    (class PWR +1V8 +3V3 +5V +BATT
+    (class PWR +1V8 +3V3 +5V +BATT /+BATTERY /+GSM_VBAT /+LED /+VBUS /+VOUT
       (circuit
         (use_via Via[0-3]_800:400_um)
       )

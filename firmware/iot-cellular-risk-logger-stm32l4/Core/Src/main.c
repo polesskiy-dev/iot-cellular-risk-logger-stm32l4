@@ -336,10 +336,20 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(LED__GPIO_Port, LED__Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOA, GSM_EN_Pin|GNSS_EN_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, GSM_RI_Pin|GSM_DTR_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : LED__Pin */
+  GPIO_InitStruct.Pin = LED__Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(LED__GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : GSM_EN_Pin GNSS_EN_Pin */
   GPIO_InitStruct.Pin = GSM_EN_Pin|GNSS_EN_Pin;
@@ -348,13 +358,17 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : SIM_DETECT_Pin CHARGE_STAT_Pin _LIGHT_INT_Pin IMU_INT1_Pin
-                           IMU_INT2_Pin */
-  GPIO_InitStruct.Pin = SIM_DETECT_Pin|CHARGE_STAT_Pin|_LIGHT_INT_Pin|IMU_INT1_Pin
-                          |IMU_INT2_Pin;
+  /*Configure GPIO pins : IMU_INT1_Pin IMU_INT2_Pin GSM_DCD_Pin */
+  GPIO_InitStruct.Pin = IMU_INT1_Pin|IMU_INT2_Pin|GSM_DCD_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : SIM_DETECT_Pin */
+  GPIO_InitStruct.Pin = SIM_DETECT_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(SIM_DETECT_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : GSM_RI_Pin GSM_DTR_Pin */
   GPIO_InitStruct.Pin = GSM_RI_Pin|GSM_DTR_Pin;
@@ -362,12 +376,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : GSM_DCD_Pin */
-  GPIO_InitStruct.Pin = GSM_DCD_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GSM_DCD_GPIO_Port, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */

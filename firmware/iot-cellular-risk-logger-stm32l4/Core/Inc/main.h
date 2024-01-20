@@ -57,10 +57,16 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define LED__Pin GPIO_PIN_13
+#define LED__GPIO_Port GPIOC
 #define GSM_EN_Pin GPIO_PIN_0
 #define GSM_EN_GPIO_Port GPIOA
 #define GNSS_EN_Pin GPIO_PIN_1
 #define GNSS_EN_GPIO_Port GPIOA
+#define IMU_INT1_Pin GPIO_PIN_4
+#define IMU_INT1_GPIO_Port GPIOA
+#define IMU_INT2_Pin GPIO_PIN_5
+#define IMU_INT2_GPIO_Port GPIOA
 #define SIM_DETECT_Pin GPIO_PIN_2
 #define SIM_DETECT_GPIO_Port GPIOB
 #define GSM_RI_Pin GPIO_PIN_14
@@ -69,14 +75,6 @@ void Error_Handler(void);
 #define GSM_DTR_GPIO_Port GPIOB
 #define GSM_DCD_Pin GPIO_PIN_8
 #define GSM_DCD_GPIO_Port GPIOA
-#define CHARGE_STAT_Pin GPIO_PIN_4
-#define CHARGE_STAT_GPIO_Port GPIOB
-#define _LIGHT_INT_Pin GPIO_PIN_5
-#define _LIGHT_INT_GPIO_Port GPIOB
-#define IMU_INT1_Pin GPIO_PIN_6
-#define IMU_INT1_GPIO_Port GPIOB
-#define IMU_INT2_Pin GPIO_PIN_7
-#define IMU_INT2_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

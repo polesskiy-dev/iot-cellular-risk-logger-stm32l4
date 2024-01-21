@@ -75,6 +75,10 @@ void Error_Handler(void);
 #define GSM_DTR_GPIO_Port GPIOB
 #define GSM_DCD_Pin GPIO_PIN_8
 #define GSM_DCD_GPIO_Port GPIOA
+#define CHARGE_STAT_Pin GPIO_PIN_4
+#define CHARGE_STAT_GPIO_Port GPIOB
+#define _LIGHT_INT_Pin GPIO_PIN_6
+#define _LIGHT_INT_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

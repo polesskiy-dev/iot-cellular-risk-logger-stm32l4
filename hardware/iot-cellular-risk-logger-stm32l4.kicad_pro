@@ -390,7 +390,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -548,6 +548,22 @@
     [
       "339ca92e-4587-48ee-833b-99030a39115f",
       ""
+    ],
+    [
+      "bf0ce970-b668-46d7-8211-10a7b1d90d74",
+      "Power Management Unit (PMU)"
+    ],
+    [
+      "72acafcf-162d-493b-bd0e-74724fc475e6",
+      "Sensors"
+    ],
+    [
+      "a2b11a26-7637-402d-8f4f-d7a1a2c674d7",
+      "MCU & Interfaces"
+    ],
+    [
+      "d9296232-7fd2-453b-8e28-98b61c6924a8",
+      "GSM Module"
     ]
   ],
   "text_variables": {}

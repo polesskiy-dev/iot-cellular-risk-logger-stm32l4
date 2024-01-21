@@ -364,11 +364,11 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : SIM_DETECT_Pin */
-  GPIO_InitStruct.Pin = SIM_DETECT_Pin;
+  /*Configure GPIO pins : SIM_DETECT_Pin _LIGHT_INT_Pin */
+  GPIO_InitStruct.Pin = SIM_DETECT_Pin|_LIGHT_INT_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(SIM_DETECT_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /*Configure GPIO pins : GSM_RI_Pin GSM_DTR_Pin */
   GPIO_InitStruct.Pin = GSM_RI_Pin|GSM_DTR_Pin;
@@ -376,6 +376,12 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : CHARGE_STAT_Pin */
+  GPIO_InitStruct.Pin = CHARGE_STAT_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(CHARGE_STAT_GPIO_Port, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
